@@ -1,4 +1,8 @@
 /* common shared styke */
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,11 +18,24 @@ body {
     font-weight: 700;
     padding: 15px  30px;
 }
+
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.banner-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav related style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 130px;
 }
 .nav-tittle {
     color: #181818;
@@ -36,4 +53,46 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .dp {
+    width: 500px;
+}
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-tittle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description {
+    font-size: 18px;   
+}
+.banner-content {
+    max-width: 580px;
+}
+/* main section design */
+
+/* about section design */
+.about {
+    padding: 130px;
+    margin: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
 }
