@@ -25,7 +25,7 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
-.banner-description {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -82,12 +82,31 @@ nav a {
     margin-bottom: 20px;
 }
 .banner-description {
-    font-size: 18px;   
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;   
+}
+.banner-button {
+    width: 200px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-button2{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
 }
 .banner-content {
     max-width: 580px;
 }
 /* main section design */
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section design */
 .about {
@@ -95,4 +114,22 @@ nav a {
     margin: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.about-info {
+    text-align: center;
+}
+.about-info p {
+   font-weight: 700; 
+}
+.about-info h4 {
+   font-weight: 400;
+   padding-bottom: 10px; 
+}
+.i-have-more {
+    padding: 30px 190px;
 }
